@@ -7,7 +7,7 @@
 
 
 ### `Options配置说明`
-<style> table th:nth-of-type(2) { width: 250px; } </style>
+
 key | option type / notes | example | 
 ----|---------|------
 `particles.number.value` | number<br />数量 | `40`
