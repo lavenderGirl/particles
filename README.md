@@ -3,6 +3,6 @@
 
 [demo](https://lavendergirl.github.io/particles/index.html)
 
-![](粒子效果图.png)
+![](粒子效果图1.png)
 
 配置请参考：https://www.cnblogs.com/wangyihong/p/8618305.html
