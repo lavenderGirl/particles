@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>xChain</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
+    <link rel="stylesheet" href="css/mobile-index.css">
+    <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
     <!-- <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet"> -->
 </head>
 <body>
@@ -23,28 +24,33 @@
             <div class="wrap">
                 <img class="logo" src="images/logo.png">
                 <img class="logo-blue none" src="images/logo-blue.png">
-                <ul class="nav-group">
-                    <li class="nav-list active"><a class="nav-a" href="/" title="首页">首页</a></li>
-                    <li class="nav-list">
-                        <a class="nav-a" href="javascript:;" title="公链">公链</a>
-                        <ul class="sub-nav">
-                            <li><a href="javascript:;" title="产品服务">产品服务</a></li>
-                            <li><a href="javascript:;" title="区块链网络">区块链网络</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-list">
-                        <a class="nav-a" href="javascript:;" title="联盟链">联盟链</a>
-                    </li>
-                    <li class="nav-list">
-                        <a class="nav-a" href="javascript:;" title="私链">私链</a>
-                    </li>
-                    <li class="nav-list">
-                        <a class="nav-a" href="javascript:;" target="_blank" title="节点">节点</a>
-                    </li>
-                    <li class="nav-list">
-                        <a class="nav-a" href="javascript:;" target="_blank" title="算力计算">算力计算</a>
-                    </li>
-                </ul>
+                <p class="menu-wrap">
+                    <i class="fa fa-bars"></i>
+                </p>
+                <div class="nav-wrap none">
+                    <ul class="nav-group">
+                        <li class="nav-list border-bottom active"><a class="nav-a" href="/" title="首页">首页</a></li>
+                        <li class="nav-list border-bottom">
+                            <a class="nav-a" href="javascript:;" title="公链">公链</a>
+                            <ul class="sub-nav">
+                                <li><a href="javascript:;" title="产品服务">产品服务</a></li>
+                                <li><a href="javascript:;" title="区块链网络">区块链网络</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-list border-bottom">
+                            <a class="nav-a" href="javascript:;" title="联盟链">联盟链</a>
+                        </li>
+                        <li class="nav-list border-bottom">
+                            <a class="nav-a" href="javascript:;" title="私链">私链</a>
+                        </li>
+                        <li class="nav-list border-bottom">
+                            <a class="nav-a" href="javascript:;" target="_blank" title="节点">节点</a>
+                        </li>
+                        <li class="nav-list border-bottom">
+                            <a class="nav-a" href="javascript:;" target="_blank" title="算力计算">算力计算</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- banner -->
@@ -58,7 +64,6 @@
                                 <p class="slogan">支持数字资产流通及物联网价值传递</p>
                                 <a href="/blockchain/index.jhtml" class="btn" title="了解详情">了解详情</a>
                             </div>
-                            <!-- <img class="img fr" src="/r/cms/www/default/images/banner_bubix_main.png" alt="Baas 服务，让区块链技术应用，像上网一样简单"> -->
                         </div>
                     </div>
                 </div>
@@ -66,7 +71,7 @@
                     <div class="slide-wrap slide-bunuo">
                         <div class="wrap">
                             <div class="txt fl">
-                                <p class="tit">供应链金融 —— 壹诺金融</p>
+                                <p class="tit">供应链金融</p>
                                 <p class="slogan">行业区块链网络，产业链价值的连接者</p>
                                 <a href="http://www.yinuojr.cn" class="btn" target="_blank" title="了解详情">了解详情</a>
                             </div>
@@ -79,7 +84,7 @@
                         <div class="wrap">
                             <img class="img fl" src="images/banner_bumeng_main.png" alt="布萌数字资产网络，资产自由流通，数据用户做主">
                             <div class="txt fr">
-                                <p class="tit">数字资产网络 —— 布萌</p>
+                                <p class="tit">数字资产网络</p>
                                 <p class="slogan">资产自由流通，数据用户做主，开放自治的数字资产流通网络</p>
                                 <a href="https://www.bumeng.cn" class="btn" target="_blank" title="了解详情">了解详情</a>
                             </div>
@@ -93,13 +98,13 @@
         <div class="feature-container">
             <div class="wrap">
                 <h2 class="m-titile">特性</h2>
-                <div class="feature-cont flex">
-                    <div class="item border-right">
+                <div class="feature-cont flex-row">
+                    <div class="item">
                         <img src="images/feature-icon-1.png" alt="">
                         <h3>商品溯源</h3>
                         <p>在线智能赋码解决方案,全程可追溯系统平台,窜货监管,营销供应链实现防伪\防窜货\会员积分功能,全程可视化质量追溯系统,个性活动模型搭建</p>
                     </div>
-                    <div class="item border-right">
+                    <div class="item">
                         <img src="images/feature-icon-2.png" alt="">
                         <h3>区块链共享积分</h3>
                         <p>在线智能赋码解决方案,全程可追溯系统平台,窜货监管,营销供应链实现防伪\防窜货\会员积分功能,全程可视化质量追溯系统,个性活动模型搭建</p>
@@ -166,7 +171,7 @@
         <!-- 更多场景 -->
         <div class="scenes-container">
             <h2 class="m-titile">更多场景</h2>
-            <div style="text-align:center;padding:20px 0 40px;">
+            <div style="text-align:center;padding:20px 15px 40px;">
                 <img src="images/scenes.png" alt="">
             </div>
             
@@ -174,7 +179,7 @@
         <!-- 合作项目 -->
         <div class="cooperation-projects">
             <h2 class="m-titile">合作项目</h2>
-            <div class="flex">
+            <div class="flex-row-left">
                 <img src="images/cooperation-icon-1.png" alt="">
                 <img src="images/cooperation-icon-2.png" alt="">
                 <img src="images/cooperation-icon-3.png" alt="">
@@ -185,8 +190,8 @@
 
         <!-- footer -->
         <div class="footer-container">
-            <div class="wrap flex">
-                <div class="item">
+            <div class="wrap flex-row">
+                <!-- <div class="item">
                     <h2>产品服务</h2>
                     <ul>
                         <li>区块链浏览器</li>
@@ -204,18 +209,18 @@
                         <li>供应链溯源</li>
                         <li>公示公证</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="item">
                     <h2>关于XChain</h2>
                     <ul>
                         <li>关于我们</li>
-                        <li>发展历程</li>
+                        <!-- <li>发展历程</li> -->
                         <li>加入我们</li>
                         <li>联系我们</li>
-                        <li>企业资讯</li>
+                        <!-- <li>企业资讯</li> -->
                     </ul>
                 </div>
-                <div class="item">
+                <!-- <div class="item">
                     <h2>联系我们</h2>
                     <ul>
                         <li>商务合作</li>
@@ -223,7 +228,7 @@
                         <li>技术支持</li>
                         <li>support@bubi.cn</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="item">
                     <img src="images/QR-code.png" alt="">
                     <p>XChain公众号</p>
@@ -234,11 +239,11 @@
 
     <script src="js/particles.js"></script>
     <script src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
     <script>
-         window.onresize = function(){
-            if(window.screen.width < 1024){ //以 ipad pro为准 
-                window.location.href="mobile-index.html"
+        window.onresize = function(){
+            if(window.screen.width > 1024){ //以 ipad pro为准 
+                window.location.href="index.html"
             } 
         }
         particlesJS('particles-js',{
@@ -251,7 +256,7 @@
                 }
             },
             "color": {
-                "value": "#3a7ee4"
+                "value": "#000"
             },
             "shape": {
                 "type": "circle",
@@ -291,13 +296,13 @@
             "line_linked": {
                 "enable": true,
                 "distance": 300,
-                "color": "#3a7ee4",
+                "color": "#000",
                 "opacity": 0.4,
                 "width": 1
             },
             "move": {
                 "enable": true,
-                "speed": 3,
+                "speed": 1,
                 "direction": "none",
                 "random": false,
                 "straight": false,
@@ -391,14 +396,24 @@
                 document.getElementsByClassName('header')[0].setAttribute('class','header header-index fixed');
                 document.getElementsByClassName('logo')[0].setAttribute('class','logo none');
                 document.getElementsByClassName('logo-blue')[0].setAttribute('class','logo-blue');
+                document.getElementsByClassName('menu-wrap')[0].setAttribute('class','menu-wrap blue');
             }else{
                 document.getElementsByClassName('header')[0].setAttribute('class','header header-index');
                 document.getElementsByClassName('logo')[0].setAttribute('class','logo');
                 document.getElementsByClassName('logo-blue')[0].setAttribute('class','logo-blue none');
+                document.getElementsByClassName('menu-wrap')[0].setAttribute('class','menu-wrap');
             }
             
         }
-       
+        document.getElementsByClassName('menu-wrap')[0].onclick = function(){
+            var elem = document.getElementsByClassName('nav-wrap')[0];
+            if(elem.className.indexOf('none') > 0){
+                elem.setAttribute('class','nav-wrap');
+            }else{
+                elem.setAttribute('class','nav-wrap none')
+            }
+        }
+        
     </script>
 </body>
 </html>
